@@ -1,1 +1,3 @@
--- Solution for revising-aggregations-the-count-function.sql
+SELECT COUNT(*)
+FROM CITY
+WHERE POPULATION > 100000;
