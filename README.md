@@ -1,3 +1,38 @@
+<table align="center">
+  <tr>
+    <td>
+      <h1>HackerRank Prepare Solutions</h1>
+    </td>
+    <td>
+      <img src="assets/hr.png" alt="HackerRank" width="52" height="52">
+    </td>
+  </tr>
+</table>
+
+
+<p align="center">
+	<img src="https://img.shields.io/badge/Problems%20Solved-201-brightgreen.svg?style=for-the-badge">
+	<img src="https://img.shields.io/badge/Languages-Python/SQL/Java-blue.svg?style=for-the-badge&logo=python">
+	<img src="https://img.shields.io/badge/Latest%20Update-9/26/2023-yellow.svg?style=for-the-badge">
+</p>
+
+<p align="center">
+	This repository consists of solutions to HackerRank prepare section with python, will be updated regularly.
+	Be sure to ⭐ this repo so you can keep up to date on any progress!
+</p>
+
+## Personal HackerRank Profile
+
+For more information about me you can visit my [Hackerrank profile](https://www.hackerrank.com/tincho83352?hr_r=1) or [LinkedIn profile](https://www.linkedin.com/in/juan-martin-gallo/)
+
+## Badges earned
+
+<p align="center">
+	<img src="/assets/python-gold-badge.png" alt="HackerRank Badge" width="320" height="165">
+	<img src="/assets/sql-gold-badge.png" alt="HackerRank Badge" width="320" height="165">
+	<img src="/assets/java-gold-badge.png" alt="HackerRank Badge" width="320" height="165">
+</p>
+
 
 # HackerRank Prepare Solutions | Coding Interview Preparation, Java, Python, SQL
 
