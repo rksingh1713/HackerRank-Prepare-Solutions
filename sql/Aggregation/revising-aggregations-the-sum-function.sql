@@ -1,1 +1,1 @@
--- Solution for revising-aggregations-the-sum-function.sql
+SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT = 'California';
