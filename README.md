@@ -11,9 +11,9 @@
 
 
 <p align="center">
-	<img src="https://img.shields.io/badge/Problems%20Solved-201-brightgreen.svg?style=for-the-badge">
+	<img src="https://img.shields.io/badge/Problems%20Solved-197-brightgreen.svg?style=for-the-badge">
 	<img src="https://img.shields.io/badge/Languages-Python/SQL/Java-blue.svg?style=for-the-badge&logo=python">
-	<img src="https://img.shields.io/badge/Latest%20Update-9/26/2023-yellow.svg?style=for-the-badge">
+	<img src="https://img.shields.io/badge/Latest%20Update-13/08/2025-yellow.svg?style=for-the-badge">
 </p>
 
 <p align="center">
