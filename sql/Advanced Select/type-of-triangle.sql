@@ -1,23 +1,14 @@
 SELECT
-    CONCAT(
-        NAME,
-        "(",
-        LEFT(Occupation, 1),
-        ")"
-    )
-FROM OCCUPATIONS
-ORDER BY NAME ASC;
-
-SELECT
-    CONCAT(
-        "There are a total of ",
-        COUNT(Occupation),
-        ' ',
-        LOWER(Occupation),
-        "s."
-    )
-FROM OCCUPATIONS
-GROUP BY Occupation
-ORDER BY
-    COUNT(Occupation),
-    Occupation ASC;
+    CASE
+        WHEN A + B <= C
+        OR A + C <= B
+        OR B + C <= A THEN 'Not A Triangle'
+        WHEN A = B
+        AND A = C
+        AND B = C THEN 'Equilateral'
+        WHEN A = B
+        OR A = C
+        OR B = C THEN 'Isosceles'
+        ELSE 'Scalene'
+    END
+FROM TRIANGLES;
