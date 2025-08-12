@@ -1,1 +1,1 @@
--- Solution for average-population.sql
+SELECT ROUND(AVG(POPULATION)) FROM CITY;
