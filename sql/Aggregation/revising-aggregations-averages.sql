@@ -1,1 +1,1 @@
--- Solution for revising-aggregations-averages.sql
+SELECT AVG(POPULATION) FROM CITY WHERE DISTRICT = 'California';
