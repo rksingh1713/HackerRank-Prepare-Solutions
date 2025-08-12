@@ -1,1 +1,1 @@
--- Solution for weather-observation-station-16.sql
+SELECT ROUND(MIN(LAT_N), 4) FROM STATION WHERE LAT_N > 38.7780;
