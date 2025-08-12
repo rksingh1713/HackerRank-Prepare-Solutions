@@ -1,1 +1,1 @@
--- Solution for japan-population.sql
+SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE = 'JPN';
