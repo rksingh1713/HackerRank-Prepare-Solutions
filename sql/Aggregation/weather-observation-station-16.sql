@@ -1,0 +1,1 @@
+-- Solution for weather-observation-station-16.sql

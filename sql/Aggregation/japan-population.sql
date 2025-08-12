@@ -1,0 +1,1 @@
+-- Solution for japan-population.sql

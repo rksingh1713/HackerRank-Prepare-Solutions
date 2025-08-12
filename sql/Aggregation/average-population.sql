@@ -1,0 +1,1 @@
+-- Solution for average-population.sql

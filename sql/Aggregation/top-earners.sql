@@ -1,0 +1,1 @@
+-- Solution for top-earners.sql

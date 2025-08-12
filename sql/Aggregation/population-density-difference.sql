@@ -1,0 +1,1 @@
+-- Solution for population-density-difference.sql
