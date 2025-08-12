@@ -1,1 +1,1 @@
--- Solution for population-density-difference.sql
+SELECT MAX(POPULATION) - MIN(POPULATION) FROM CITY;
