@@ -1,22 +1,22 @@
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.Scanner;
 
-public class JavaRegex {
-    public static void main(String[] args) {
+class Solution{
+
+    public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        Pattern pat = Pattern.compile(MyRegex.regex);
-        while (in.hasNext()) {
-            Matcher mat = pat.matcher(in.nextLine());
-            System.out.println(mat.find() ? "true" : "false");
+        while(in.hasNext()){
+            String IP = in.next();
+            System.out.println(IP.matches(new MyRegex().pattern));
         }
-        in.close();
+
     }
 }
-
 class MyRegex {
-    static String regex = "^(25[0-5]|2[0-4][0-9]|[01]?[0-9]{1,2})\\."
-            + "(25[0-5]|2[0-4][0-9]|[01]?[0-9]{1,2})\\."
-            + "(25[0-5]|2[0-4][0-9]|[01]?[0-9]{1,2})\\."
-            + "(25[0-5]|2[0-4][0-9]|[01]?[0-9]{1,2})$";
+    // Pattern for matching 0-255
+    private String num = "([0-9]{1,2}|(0|1)[0-9]{2}|2[0-4][0-9]|25[0-5])";
+    
+    // Full pattern for IPv4
+    public String pattern = num + "\\." + num + "\\." + num + "\\." + num;
 }
