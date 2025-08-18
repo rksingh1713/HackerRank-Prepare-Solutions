@@ -1,15 +1,21 @@
+import java.util.Scanner;
+import java.lang.reflect.Constructor;
+
 class Singleton {
 
-  public String str;
+    public String str;
 
-  private Singleton() {}
+    // single private static instance
+    private static Singleton instance = null;
 
-  public static Singleton getSingleInstance() {
-    return new Singleton();
-  }
-}
+    // private constructor
+    private Singleton() {}
 
-public class JavaSingletonPattern {
-
-  public static void main(String[] args) {}
+    // static method to get single instance
+    public static Singleton getSingleInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
 }
