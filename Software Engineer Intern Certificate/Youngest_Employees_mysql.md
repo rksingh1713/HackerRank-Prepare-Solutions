@@ -1,9 +1,9 @@
-# Python MCQ Questions
+# Are you an expert on data structures?
 
-### Q1. Which of the following is a Python keyword?
-- a) function  
-- **b) def ✅**  
-- c) fun  
-- d) define  
+### Q3. Which of the following data structures can erase from its beginning or its end in O(1) time?
+- a) vector  
+- **b) deque ✅**  
+- c) stack  
+- d) segment tree  
 
-**Answer:** b) def
+**Answer:** b) deque
