@@ -6,7 +6,7 @@
     <td>
       <img src="assets/hr.png" alt="HackerRank" width="52" height="52">
     </td>
-  </tr>
+  </tr> 
 </table>
 
 
