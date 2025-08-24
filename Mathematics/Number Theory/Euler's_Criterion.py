@@ -4,8 +4,12 @@ import os
 import sys
 
 def solve(a, m):
-    # Euler's Criterion: a^((m-1)//2) mod m == 1 => quadratic residue
-    if pow(a, (m - 1) // 2, m) == 1:
+    # Special case: if a == 0, X = 0 is a valid solution
+    if a == 0:
+        return "YES"
+    
+    val = pow(a, (m - 1) // 2, m)
+    if val == 1:
         return "YES"
     else:
         return "NO"
